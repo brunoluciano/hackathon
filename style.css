@@ -26,3 +26,9 @@ img:hover{
 i.icon{
     font-size: 40px;
 }
+
+img.bg_fundo{
+    padding-right: 100px;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}

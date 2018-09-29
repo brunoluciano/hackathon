@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Página Login</title>
 </head>
-<body>
+<body ondragstart='return false'>
     <div class="container-fluid">
         <div class="row barra">
             <div class="col-md-12">
-                <h1 class="text-center">JOSÉ</h1>
+                <h1 class="text-center">Vitae Social</h1>
             </div>
         </div>
     </div>
@@ -22,34 +22,24 @@
         <br><br>
         <div class="row">
             <div class="col-md-7">
-                <p>WELCOME TO OSSN DEMO! JOIN NOW TO MAKE NEW FRIENDS, CREATE GROUPS, ADD PHOTOS, AND MUCH MORE.</p>	
-                <div class="row">
-                    <div class="col-md-3"><i class="fas fa-users"></i></div>
-                    <div class="col-md-3"><i class="fas fa-comments"></i></div>
-                    <div class="col-md-3"><i class="fas fa-envelope"></i></div>
-                    <div class="col-md-3"><i class="fas fa-globe"></i></div>
-                </div>	
-                <div class="row">
-                    <div class="col-md-3"><i class="far fa-images"></i></div>
-                    <div class="col-md-3"><i class="fas fa-video"></i></div>
-                    <div class="col-md-3"><i class="fas fa-map-marker"></i></div>
-                    <div class="col-md-3"><i class="fas fa-calendar"></i></div>
-                </div>						
+                <img class="bg_fundo" src="Banner Inicio.png" alt="">						
             </div>
     
             <div class="col-md-5">
-                <h3>Login</h3>
-                <form action="autenticar.php" method="post">
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="v_email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="v_senha" required>
-                    </div>
-                    <button type="submit" class="btn btn-info btn-lg btn-block">Entrar</button>
-                    <hr>
-                    <p class="text-center"><a href="cadastroUser.php">Criar conta</a> ou <a href="#">lembrar senha</a></p>
-                </form>
+                <ul class="list-group">
+                    <li class="list-group-item active"><h3>Login</h3></li>
+                    <li class="list-group-item"><form action="autenticar.php" method="post">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="v_email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="v_senha" required>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-lg btn-block">Entrar</button>
+                        <hr>
+                        <p class="text-center"><a href="cadastroUser.php">Criar conta</a> ou <a href="#">lembrar senha</a></p>
+                    </form></li>
+                </ul>
             </div>
         </div>
     </div>
