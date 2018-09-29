@@ -4,7 +4,10 @@
     $senha = $_POST["v_senha"];
   if ($email == "fun@gmail.com" && $senha == "fun2469"){
     header("location: perfil.html");
-  }
+  }else
+    if($email== "fema@gmail.com" && $senha == "fema2469"){
+        header("location: perfil2.html";)
+    }
 else{
     ?>
     <!DOCTYPE html>
