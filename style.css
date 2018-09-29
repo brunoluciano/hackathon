@@ -1,3 +1,7 @@
 .barra{
-    background-color: #31aabc;
+    background-color: #12c2e8;
+}
+
+.barra h1, h2{
+    color: white;
 }
