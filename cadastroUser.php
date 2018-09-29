@@ -50,11 +50,26 @@
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="v_email" required>
                     </div>
                     <div class="form-group">
+                        <input type="text" class="form-control" id="nUsuario" aria-describedby="emailHelp" placeholder="Nome do Usuário" required>
+                    </div>
+                    <div class="form-group">
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="v_senha" required>
                     </div>
-                    <button type="submit" class="btn btn-info btn-lg btn-block">Entrar</button>
-                    <hr>
-                    <p class="text-center"><a href="cadastroUser.php">Criar conta</a> ou <a href="#">lembrar senha</a></p>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirmar senha" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Data de Nascimento" required>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Masculino</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Feminino</label>
+                    </div><br><br>
+                    <button type="submit" class="btn btn-info btn-lg btn-block">Cadastrar</button>
                 </form>
             </div>
         </div>
