@@ -39,7 +39,7 @@
     
             <div class="col-md-5">
                 <h3>Cadasto de Usuário</h3>
-                <form action="salvar.php" method="post">
+                <form action="autenticar.php" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" placeholder="Nome" required>
                     </div>
