@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="salvar.php" method="post">
+    <form action="autenticar.php" method="post">
         <input name="v_email" placeholder="Informe o email" type="text">
         <input name="v_senha" placeholder="Informe a senha" type="password">
         <input id="ossn-submit-button" class="btn btn-success" value="Enviar" type="submit">
