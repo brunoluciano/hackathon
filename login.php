@@ -38,14 +38,8 @@
             </div>
     
             <div class="col-md-5">
-                <h3>Cadasto de Usuário</h3>
+                <h3>Login</h3>
                 <form action="autenticar.php" method="post">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" placeholder="Nome" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="sobrenome" aria-describedby="emailHelp" placeholder="Sobrenome" required>
-                    </div>
                     <div class="form-group">
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="v_email" required>
                     </div>
