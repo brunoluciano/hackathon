@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Perfil</title>
+</head>
+
+<body ondragstart='return false'>
+    <div class="container-fluid">
+        <div class="row justify-content-between barra">
+            <div class="col-md-6">
+                <h1>Vitae Social | <small>Seu Curriculum Virtual</small></h1>
+            </div>
+            <div class="col-md-6">
+                <div class="btn-group " role="group" aria-label="Basic example">
+                    <h2>Olá <b>Fulano de Tal</b> | &nbsp</h2>
+                    <button type="button" class="btn btn-outline-light btn-lg"><i class="fas fa-cogs"></i></button>
+                    <button type="button" class="btn btn-outline-light btn-lg"><i class="far fa-bell"></i></button>
+                    <button type="button" class="btn btn-outline-light btn-lg"><i class="far fa-envelope"></i></button>
+                    <button type="button" class="btn btn-outline-light btn-lg" onclick="javascript: location.href='login.php'"><i
+                            class="fas fa-power-off"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="nav nav-pills margem">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galeria</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-group">
+                    <div class="card fundo">
+                        <img class="card-img-top" src="img1.png" width="10px" height="auto" alt="Imagem de perfil">
+                        <div class="card-body fundo">
+                            <h3 class="card-title text-center">Fulano de Tal</h3>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text text-center"><i>Técnico de Informática</i></p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <img src="Visualizações.png" alt="">
+                <br><br>
+                <img src="Vagas de Emprego.png" alt="">
+            </div>
+
+            <div class="col-md-8">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="dados-tab" data-toggle="tab" href="#dados" role="tab"
+                            aria-controls="dados" aria-selected="true">Dados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="formacao-tab" data-toggle="tab" href="#formacao" role="tab"
+                            aria-controls="formacao" aria-selected="false">Formação Academica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="historico-tab" data-toggle="tab" href="#historico" role="tab"
+                            aria-controls="historico" aria-selected="false">Histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Indicacoes-tab" data-toggle="tab" href="#indicacoes" role="tab"
+                            aria-controls="indicacoes" aria-selected="false">Indicações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="projetos-tab" data-toggle="tab" href="#projetos" role="tab"
+                            aria-controls="projetos" aria-selected="false">Projetos</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="dados" role="tabpanel" aria-labelledby="dados-tab"><a href="login.php"><img
+                            src="Aba_Emprego.png" alt=""></a></div>
+                    <div class="tab-pane fade" id="formacao" role="tabpanel" aria-labelledby="formacao-tab"><img src="Aba_Emprego.png"
+                            alt=""></div>
+                    <div class="tab-pane fade" id="historico" role="tabpanel" aria-labelledby="historico-tab"><img src="Aba_Emprego.png"
+                            alt=""></div>
+                    <div class="tab-pane fade" id="indicacoes" role="tabpanel" aria-labelledby="indicacoes-tab"><img
+                            src="Aba_Emprego.png" alt=""></div>
+                    <div class="tab-pane fade" id="projetos" role="tabpanel" aria-labelledby="projetos-tab"><img src="Aba_Emprego.png"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

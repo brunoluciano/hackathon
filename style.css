@@ -2,6 +2,27 @@
     background-color: #12c2e8;
 }
 
+.card-body fundo{
+    background-color: #1592ae;
+    padding: -10px;
+}
+
 .barra h1, h2{
     color: white;
+}
+
+.margem{
+    margin: 20px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+i.icon{
+    font-size: 40px;
 }
